@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Dancing Script", cursive;
+  --font-sans: "Poppins", sans-serif;
+  
+  --color-pastel-pink: #FFE4E1;
+  --color-pastel-pink-dark: #FFB6C1;
+  --color-pastel-mint: #E0F4EA;
+  --color-pastel-mint-dark: #A8E6CF;
+  --color-soft-gold: #D4AF37;
+  --color-soft-white: #FAFAFA;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-soft-white);
+  color: #4A4A4A;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-script {
+  font-family: var(--font-script);
+}
